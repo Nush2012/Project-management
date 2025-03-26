@@ -1,0 +1,4 @@
+[2025-03-25T12:31:37.186] [DEBUG] default - SST: 1.18.4
+[2025-03-25T12:31:37.187] [DEBUG] default - CDK: 2.50.0
+[2025-03-25T12:31:37.189] [DEBUG] aws-auth - Determining if we're on an EC2 instance.
+[2025-03-25T12:31:37.189] [DEBUG] aws-auth - Does not look like an EC2 instance.
