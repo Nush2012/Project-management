@@ -1,29 +1,60 @@
-# Create T3 App
+# 📁 ProjectManagementApp
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+A collaborative **Project Management Application** built with **Next.js**, **TypeScript**, **Tailwind CSS**, **tRPC**, and **NextAuth.js**, featuring task management, user profiles, and Supabase-backed data handling. The backend is deployed serverlessly using **SST (on AWS)**.
 
-## What's next? How do I make an app with this?
+---
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## 🔧 Tech Stack
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **API Layer:** tRPC
+- **Authentication:** NextAuth.js
+- **Database ORM:** Prisma
+- **Database Platform:** Supabase
+- **Deployment:** SST (Serverless Stack on AWS)
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+---
 
-## Learn More
+## 🚀 Features
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+### ✅ 1. Task Management Interface
+- Create, assign, and track tasks
+- Set deadlines, priorities/tags, and assign team members
+- Add detailed task descriptions and progress indicators
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+### ✅ 2. User Profile & Project Settings
+- Manage personal profiles and preferences
+- Edit user details and project-related settings
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+### ✅ 3. Serverless Backend with SST
+- Set up and deployed using [SST](https://sst.dev/)
+- Fully integrated with AWS Lambda for scalable backend handling
 
-## How do I deploy this?
+### ✅ 4. Supabase Integration
+- Email and password login with Supabase Auth
+- Supabase Database for storing tasks, user data, and project details
+- Fully functional CRUD operations via Prisma ORM
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+### ✅ 5. (Optional) Dashboard
+- Overview of ongoing projects and tasks
+- Visual timelines, task lists, and analytics components
+
+---
+
+## 🧪 Testing
+
+- Basic unit tests included for critical features
+- Coverage for task creation and user authentication logic
+
+---
+
+## 📦 Getting Started
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/ProjectManagementApp.git
+cd ProjectManagementApp
+npm install
